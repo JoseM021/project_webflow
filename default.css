@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* header {
-    font-size: clamp(1.8rem, 1.8vw, 8rem);
-} */
 body {
     background-color: #FFF;
 }
-header {
+html{
+    font-size: 20px;
+}
+.header-up {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,4 +93,27 @@ header {
     width:  clamp(3.5rem, 6.3vw, 20rem);
     font-size: clamp(0.5rem, 1vw, 4rem);
     cursor: pointer;
+}
+.header-down {
+    display: flex;
+    justify-content: center;
+}
+.header-downContainer {
+    background-color: #3420ff;
+    width: 91vw;
+    height: 21vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Mulish;
+    gap: 0.5vw;
+}
+.header-downContainer h2 {
+    font-size: 3vw;
+    color: #FFFF;
+
+}
+.header-downContainer p {
+    font-size: 1vw;
 }
