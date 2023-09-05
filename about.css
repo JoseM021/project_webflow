@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3% 5%;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header-logo h3 {
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(0.7rem, 1.4vw, 9rem);
+    font-weight: bold;
+    cursor: default;
+}
+.header-logo img {
+    max-height: clamp(1.5rem, 1.8vw, 15rem);
+    pointer-events: none;
+}
+.header-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24%;
+    padding-right: 120px;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(0.7rem, 1vw, 9rem);
+    font-weight: 600;
+}
+
+.menu-option p {
+    color: #CFCFCF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Mulish;
+    font-size: clamp(0.7rem, 0.7vw, 7.5rem);
+    font-weight: bold;
+    cursor: default;
+}
+.menu-option .menu-01 {
+    color: #5236FF;
+}
+.menu-option div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.menu-optionIMG img {
+    padding-top: 5px;
+    cursor: pointer;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-rightMarket {
+    display: flex;
+    justify-content: center;
+    background-color: #5956E9;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 4vh;
+    padding: clamp(0.8rem, 1vw, 15rem);
+    border: none;
+}
+.header-rightMarket img {
+    height: clamp(0.7rem, 1vw, 7.5rem);
+    pointer-events: none;
+}
+.header-right button {
+    background: none;
+    border-radius: 62px;
+    border: 1px solid #7d7c7c;
+    height: clamp(2.5rem, 2.5vw, 18rem);
+    width:  clamp(3.5rem, 6.3vw, 20rem);
+    font-size: clamp(0.5rem, 1vw, 4rem);
+    cursor: pointer;
+}
+.mover_mija{
+    padding: 0 5%;
+}
+.fondo_fondo{
+    background-image: url(img-1/image-fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+.descripcion_parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.modificar_color{
+    color: white;
+}
+.modificar_p{
+    color: rgba(255, 255, 255, 0.874);
+    text-align: center;
+}
+.area_trabajo{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.area_img{
+    height: 390px;
+}
+.area_laboral{
+    display: flex;
+    gap: 20px;
+}
+.area_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 12px;
+}
+.area_texto h2{
+    color: #2F2F2F;
+}
+.area_texto p{
+  color: rgba(0, 0, 0, 0.634);
+}
+.descripcion_configu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.componer_parrafos{
+    flex-direction: column;
+}
+.componer_parrafos h4{
+    color: #2F2F2F;
+}
+.descripcion_img img{
+    height: 70px;
+}
+.button_laboral{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+.boton_area{
+   
+    border-radius: 30px;
+    align-items: center;
+    padding: 15px 30px;
+    border: none;
+    background-color:#2F2F2F;
+    color: white;
+    cursor: pointer;
+}
+.catalogos_descrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalogos_titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catalogos_pre{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 60px;
+}
+.catalogos_pecio{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.catalogos_pecio h2{
+    color: #5236FF;
+}
+.mision_laboral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.mision_titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tick_infor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tick_nuevo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tick_nuevo img{
+    height: 20px;
+}
+.img_mision{
+  display: flex;
+  gap: 30px;
+}
+.img_trabaja{
+    height: 270px;
+}
+.erro_mijo{
+    text-align: center;
+    padding: 90px;
+}
+.tarjetas_present{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tarjetas_cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 15px;
+
+}
+.cards_present{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.cards_present--borde{
+    border: 2px solid #CFCFCF;
+    border-radius: 20px;
+    
+}
+.fondo_tarjetas{
+    background-image: url(img-1/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.fondo_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    gap: 468px;
+}
+
+.fondo_titulo h2{
+  color: white;
+}
+.fondo_titulo p{
+    color: rgba(255, 255, 255, 0.785);
+}
+.boton_area--color{
+    background-color: #CFCFCF;
+    color: black;
+}
+.fondo_centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+.img_person {
+    height: 390px;
+}
+
+.fondo_images{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   color: white;
+}
+.logiar_img img {
+  height: 15px;
+  padding: 0 10px;
+}
+.our_titulo{
+    text-align: center;
+    padding: 60px;
+}
+.our_present{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.our_tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.our_cards{
+    background-color:#CFCFCF;
+    border-radius: 20px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px;
+    gap: 10px;
+}
+.img_rayita{
+  text-align: center;
+}
+.img_rayita img {
+  width: 100%;
+  padding: 20px 5%;
+}
+.logo_final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo_titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_final img {
+    max-height: clamp(1.5rem, 1.8vw, 15rem);
+    pointer-events: none;
+}
+.boton_area--ancho{
+    padding: 10px 50px;
+    background-color: white;
+    border: 1px solid #CFCFCF;
+    color: rgba(0, 0, 0, 0.801);
+}
+a{
+    text-decoration: none;
+    color: #7d7c7c;
+}
+.resour_enlaces{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 28px
+}
+.enlaces_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 10px;
+}
+.enlaces_na{
+    padding: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.resour_viajar{
+    display: flex;
+    flex-direction: column;
+}
+.popular_central{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ padding: 35px 35px;
+}
+.popular_present{
+    background-color: #2F2F2F;
+    border-radius: 20px;
+}
+.popular_mija{
+    display: flex;
+    flex-direction: column;
+}
+.popular_mija h2{
+  color: white;
+}
+span{
+   color: #38D4FF;
+}
+.popular_check p{
+    color: white;
+}
+.popular_check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.final_encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.final_encabezado img{
+    padding: 0 8px;
+}
+.final_color{
+    color: black;
+}
