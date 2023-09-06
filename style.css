@@ -47,21 +47,17 @@ html{
     font-weight: 600;
 }
 
-.menu-option p {
-    color: #CFCFCF;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: Mulish;
-    font-size: clamp(0.7rem, 0.7vw, 7.5rem);
-    font-weight: bold;
-    cursor: default;
-}
 .menu-option .menu-01 {
     color: #5236FF;
+}
+.menu-option {
+    display: flex;
+    align-items: center;
 }
 .menu-option div {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.5vw;
 }
 .menu-optionIMG img {
     padding-top: 5px;
@@ -83,15 +79,15 @@ html{
     border: none;
 }
 .header-rightMarket img {
-    height: clamp(0.7rem, 1vw, 7.5rem);
+    height: 1vw;
     pointer-events: none;
 }
 .header-right button {
     background: none;
-    border-radius: 62px;
+    border-radius: 10vw;
     border: 1px solid #7d7c7c;
-    height: clamp(2.5rem, 2.5vw, 18rem);
-    width:  clamp(3.5rem, 6.3vw, 20rem);
+    height: 3vw;
+    width: 6.5vw;
     font-size: clamp(0.5rem, 1vw, 4rem);
     cursor: pointer;
 }
@@ -149,7 +145,6 @@ html{
     top: 32vw;
     border-radius: 1.6vw;
     height: 30vw;
-    
 }
 .header-downGraphics::before {
     content: "";
@@ -184,19 +179,26 @@ html{
     gap: 3vw;
 }
 .homepage-brandsLeft button {
-    padding: 0.9vw;
+    padding: 1.2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
     border: none;
     background-color: #2F2F2F;
     color: white;
     border-radius: 1.8vw;
+    font-size: clamp(0.5rem, 0.9vw, 10rem);
+    cursor: pointer;
 }
+
 .homepage-brandsLeft h3 {
     font-size: 2.3vw;
     font-weight: 900;
+    padding-bottom: 1.2vw;
 }
 .homepage-brandsLeft p {
     color: #808080;
     font-size: 0.9vw;
+    padding-bottom: 1.5vw;
 }
 .homepage-brandsImg img {
     height: 28vw;
@@ -207,4 +209,508 @@ html{
 .brandsLeft-list div {
     display: flex;
     gap: 0.3vw;
+}
+/* -----------------powerfull feauters---------------- */
+.homepage-feauters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 0vw 15vw;
+    padding-top: 2.5vw;
+    padding-bottom: 5.8vw;
+}
+.feauters-title {
+    display: flex;
+    justify-content: center;
+}
+.feauters-title p {
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+.feauters-panel {
+    border: 1px solid #DCDCDC;
+    border-radius: 1vw;
+    width: 22vw;
+    padding: 1.8vw;
+    margin-bottom: 1vw;
+}
+.feauters-panel button {
+    border: none;
+    height: 2.5vw;
+    width: 6.2vw;
+    border-radius: 1.4vw;
+    font-size: 0.85vw;
+    cursor: pointer;
+}
+.feauters-panel h4 {
+    font-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+.feauters-panel p {
+    font-size: 0.94vw;
+    color: #a5a0a0;
+    padding-bottom: 1vw;
+}
+.feauters-panelLine {
+    border-bottom: 1px solid #DCDCDC;
+}
+.feauters-panelDown {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+}
+.feauters-panelDown img {
+    height: 2.9vw;
+}
+.feauters-panelDown button {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    width: 7.8vw;
+}
+.feauters-panelDown button:hover {
+    background-color: #5956e9;
+    color: white;
+}
+/* -------------------homepage yourpage------------------- */
+.homepage-downContainer-small {
+    width: 99vw;
+    height: 30.5vw;
+    border-radius: 0;
+    background: url(/img/homepage-yourself-backgroudBanner.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8vw;
+}
+
+.yourself-containerLeft h5 {
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.1vw;
+}
+.yourself-containerLeft p {
+    font-size: 1vw;
+    color: white;
+}
+.yourself-containerRight button {
+    border: none;
+    height: 3vw;
+    width: 8vw;
+    background-color: white;
+    border-radius: 2vw;
+    font-size: 0.8vw;
+    z-index: 2;
+    cursor: pointer;
+}
+.yourself-containerDown {
+    position: absolute;
+    pointer-events: none;
+    height: 32.7vw;
+}
+.yourself-containerDown img {
+    height: 32.7vw;
+    border-radius: 0.8vw;
+    position: relative;
+    top: 20vw;
+}
+/* -----------------------HomePage social networks-------------------------- */
+.homepage-socialNetworks {
+    display: flex;
+    justify-content: center;
+    padding: 0 15vw;
+}
+.homepage-socialNetworks {
+    padding-top: 30vw;
+}
+.socialNetworks-title {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+.socialNetworks-p {
+    font-size: 0.85vw;
+    color: #9d9d9d;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+.socialNetworks-left button {
+    border: none;
+    border-radius: 2.5vw;
+    height: 3vw;
+    width: 10vw;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8vw;
+}
+.socialNetworks-right img {
+    height: 25vw;
+}
+/* ----------------------Working Process --------------------------*/
+.homepage-workingprocess {
+    display: flex;
+    justify-content: center;
+    gap: 1.8vw;
+    padding-bottom: 7vw;
+}
+.workingprocess-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.workingprocess-left {
+    background: url(img/working-process.png);
+    background-size: cover;
+    height: 25vw;
+    width: 22vw;
+    border-radius: 0.8vw;
+    padding: 3vw;
+}
+.workingprocess-left button {
+    background-color: white;
+    height: 3vw;
+    width: 8vw;
+    border: none;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.workingprocess-Left--title {
+    font-size: 1.8vw;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 1vw;
+    padding-top: 2vw;
+    cursor: default;
+}
+.workingprocess-Left--p {
+    font-size: 0.75vw;
+    color: white;
+    padding-bottom: 1vw;
+    cursor: default;
+}
+.panel-number {
+    font-weight: 900;
+    font-size: 2.2vw;
+    padding-bottom: 0.5vw;
+    cursor: default;
+}
+.panel-number:hover {
+    color: #5956e9;
+}
+.panel-title {
+    font-weight: 900;
+    font-size: 1.2vw;
+    padding-bottom: 0.4vw;
+    cursor: default;
+}
+.panel-p {
+    font-size: 1vw;
+    color: #7d7c7c;
+    cursor: default;
+}
+.workingprocess-panel {
+    width: 20vw;
+}
+/* ------------------------Happy Family--------------------------------- */
+.homepage-happyfamily {
+    display: grid;
+    justify-content: center;
+}
+.family-title p {
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    padding-bottom: 3vw;
+    cursor: default;
+}
+.happyfamily-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 20% 60% 20%;
+    background-color: #f6f6f6;
+    width: 68vw;
+    padding-top: 8vw;
+}
+.happyfamily-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.happyfamily-iconPerfil {
+    display: grid;
+    justify-items: center;
+}
+.icon-perfil {
+    border-radius: 5vw;
+    height: 10vw;
+    pointer-events: none;
+}
+.mark-icon {
+    position: relative;
+    bottom: 2.5vw;
+}
+.mark-icon img {
+    height: 0.8vw;
+    pointer-events: none;
+}
+.happyfamily-arrowLeft {
+    background-color: #5956e9;
+    width: 1.5vw;
+    height: 2vw;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 13vw;
+}
+.happyfamily-arrowRight {
+    background: white;
+    width: 1.5vw;
+    height: 2vw;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    margin-top: 13vw;
+}
+.happyfamily-arrowRight img,
+.happyfamily-arrowLeft img {
+    height: 1.2vw;
+    pointer-events: none;
+}
+.iconPerfil-Container div {
+    background-color: #5236FF;
+    height: 2vw;
+    width: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2vw;
+    border-radius: 1.5vw;
+}
+.iconPerfil-subContainer {
+    display: flex;
+    gap: 0.2vw;
+}
+.Perfil-Name {
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: default;
+}
+.Perfil-Desc {
+    font-size: 1vw;
+    cursor: default;
+}
+.happyfamily-starsRate {
+    height: 1.8vw;
+    pointer-events: none;
+}
+.happyfamily-contentP {
+    text-align: center;
+    font-size: 1vw;
+    cursor: default;
+    padding-bottom: 3.2vw;
+}
+.happyfamily-contentP {
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 3.2vw;
+    width: 59vw;
+}
+.containerCenter-up p {
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 2.3vw;
+    font-weight: 900;
+}
+.panel-title {
+    font-size: 2.2vw;
+    font-weight: 900;
+    color: #5236FF;
+}
+.panel-subtitle {
+    font-size: 1vw;
+    color: #7d7c7c;
+}
+.happyfamily-containerCenter {
+    background-color: #f6f6f6;
+}
+.happyfamily-containerFooter {
+    background-color: #f6f6f6;
+}
+.containerCenter-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding-top: 3.5vw;
+    padding-left: 3.2vw;
+}
+.containerCenter-downPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d1d1d1;
+}
+.happyfamily-secondline {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 4vw;
+    margin-bottom: 2.7vw;
+    color: #d1d1d1;
+}
+.footers-container {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 5.4vw;
+}
+.footers-container p {
+    font-size: 1.6vw;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
+.footers-container button {
+    border: none;
+    background-color: #2f2f2f;
+    color: white;
+    height: 3.2vw;
+    width: 10vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    font-size: 0.9vw;
+}
+/* --------------------------------Article Panel--------------------------------- */
+.article-panel {
+    width: 14.5vw;
+}
+.articlesHeader {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20.5vw;
+    padding-top: 7.5vw;
+}
+.articleTitle {
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+.articlesSubTitle {
+    font-size: 0.8vw;
+    color: #808080;
+}
+.articlesHeader button {
+    border: none;
+    height: 2.5vw;
+    width: 8.5vw;
+    border-radius: 3vw;
+    background: white;
+    border: 1px solid #808080;
+    cursor: pointer;
+}
+.article-panelHeader-left {
+    background: url(img/article-social-media.png) rgb(34, 34, 34) 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12.5vw;
+    width: 14.8vw;
+    border-radius: 0.7vw;
+    display: flex;
+    padding-top: 9.4vw;
+    padding-left: 0.4vw;
+    gap: 0.5vw;
+}
+.article-panelHeader-center {
+    background: url(img/article-digital-platform.png) rgb(34, 34, 34) 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12.5vw;
+    width: 14.8vw;
+    border-radius: 0.7vw;
+    display: flex;
+    padding-top: 9.4vw;
+    padding-left: 0.4vw;
+    gap: 0.5vw;
+}
+.article-panelHeader-right {
+    background: url(img/article-goal-acheive.png) rgb(34, 34, 34) 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12.5vw;
+    width: 14.8vw;
+    border-radius: 0.7vw;
+    display: flex;
+    padding-top: 9.4vw;
+    padding-left: 0.4vw;
+    gap: 0.5vw;
+}
+.article-panelHeader-left button,
+.article-panelHeader-center button,
+.article-panelHeader-right button {
+    border: none;
+    border-radius: 1.2vw;
+    height: 2vw;
+    width: 5.3vw;
+    font-size: 0.8vw;
+    background-color: white;
+    cursor: pointer;
+}
+.article-panelsubHeader {
+    font-size: 0.8vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    cursor: default;
+}
+.title-bottom {
+    font-size: 1vw;
+    font-weight: bold;
+    padding-top: 0.8vw;    
+    padding-bottom: 0.8vw;
+    cursor: default;
+}
+.content-main {
+    font-size: 0.65vw;
+    padding-bottom: 0.7vw;
+    cursor: default;
+}
+.content-viewmore {
+    font-size: 0.9vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.homepage-articlePanel {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+    gap: 2vw;
+    position: relative;
+}
+.input-boton-footer input {
+    padding: 1.2vw;
+    width: 21vw;
+    border: none;
+    border: 1px solid;
+    border-radius: 2vw;
+}
+.input-boton-footer button {
+    border: none;
+    background-color: #2F2F2F;
+    color:white;
+    height: 3vw;
+    width:6vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    left: -7vw;
+    bottom: -0.1vw;
+    font-size: 0.9vw;
+}
+.input-boton-footer input::placeholder {
+    font-size: 0.9vw;
 }
