@@ -690,27 +690,55 @@ html{
     padding-top: 2vw;
     padding-bottom: 10vw;
     gap: 2vw;
+/*     position: relative; */
+}
+.input-boton-footer {
     position: relative;
 }
 .input-boton-footer input {
     padding: 1.2vw;
+    height: 3.5vw;
     width: 21vw;
     border: none;
     border: 1px solid;
     border-radius: 2vw;
+    font-size: 0.9vw;
 }
 .input-boton-footer button {
     border: none;
+    position: absolute;
     background-color: #2F2F2F;
     color:white;
-    height: 3vw;
+    height: 2.8vw;
     width:6vw;
     border-radius: 2vw;
     cursor: pointer;
-    left: -7vw;
-    bottom: -0.1vw;
+    left: 29.6vh;
+    bottom: 0.6vh;
     font-size: 0.9vw;
 }
 .input-boton-footer input::placeholder {
     font-size: 0.9vw;
+}
+.homepage-footer {
+    display: flex;
+    justify-content: center;
+}
+.bottom-footer-container {
+    background: #2819ff;
+    width: 69vw;
+    height: 27vw;
+}
+.footer-title {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.footer-subtitle {
+    color: white;
+    font-size: 0.95vw;
+}
+.container-down-radius p {
+    font-size: 1vw;
+    color: white;
 }
