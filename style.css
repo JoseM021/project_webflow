@@ -316,6 +316,35 @@ html{
     position: relative;
     top: 20vw;
 }
+.yourself-button-customizable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 14vw;
+    border-radius: 3vw;
+    gap: 0.8vw;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    bottom: -19vw;
+    left: 1vw;
+    cursor: pointer;
+    z-index: 2;
+}
+.yourself-button-customizable p {
+    font-size: 0.8vw;
+}
+.yourself-button-customizable img {
+    height: 3.6vw;
+    pointer-events: none;
+    position: relative;
+    top: 0vw;
+}
+.yourself-container-subtitle {
+    color: #3420ff;
+    font-weight: 900;
+}
 /* -----------------------HomePage social networks-------------------------- */
 .homepage-socialNetworks {
     display: flex;
@@ -373,6 +402,7 @@ html{
     height: 3vw;
     width: 8vw;
     border: none;
+    font-size: 0.8vw;
     border-radius: 2vw;
     cursor: pointer;
 }
@@ -725,20 +755,56 @@ html{
     justify-content: center;
 }
 .bottom-footer-container {
+    display: flex;
     background: #2819ff;
     width: 69vw;
     height: 27vw;
+    border-radius: 0.5vw;
+    background-image: url(img/footer-background-left.png), url(img/footer-secondBackgroud-right.png);
+    background-size: 59% 100%, 66% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-blend-mode: hard-light;
 }
 .footer-title {
     color: white;
     font-size: 2.5vw;
     font-weight: bold;
+    padding-bottom: 1vw;
 }
 .footer-subtitle {
     color: white;
     font-size: 0.95vw;
+    padding-bottom: 1vw;
 }
 .container-down-radius p {
-    font-size: 1vw;
+    font-size: 0.9vw;
     color: white;
+}
+.container-down-radius img {
+    height: 1.2vw;
+    align-items: center;
+    pointer-events: none;
+}
+.footer-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2vw;
+    padding-left: 3vw;
+}
+.footer-container-down {
+    display: flex;
+    gap: 1.5vw;
+}
+.container-down-radius{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 1.8vw;
+}
+.footer-container-right img {
+    height: 38vw;
+    position: relative;
+    bottom: 4.3vw;
 }
