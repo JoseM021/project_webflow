@@ -115,3 +115,29 @@ header {
     text-align: center;
     font-size: 1.2vw;
 }
+.arti_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8%;
+  gap: 4vw;
+}
+.arti_primer {
+    display: flex;
+    gap: 6vw;
+}
+.arti_pho{
+    display: flex;
+    gap: 8vw;
+}
+.arti_pm{
+    gap: 2vw;
+}
+.arti_pm{
+    flex-direction: column;
+    display: flex;
+}
+.arti_color{
+    color: #5956E9;
+}
