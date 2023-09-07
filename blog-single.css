@@ -304,3 +304,134 @@ header {
 .bg_img img{
    height: 1vw;
 }
+.img_rayita{
+    text-align: center;
+}
+.img_rayita img {
+    width: 94vw;
+    padding: 2vw 3vw;
+}
+.logo_final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo_titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_titulo{
+    font-size: 1.2vw;
+}
+.logo_final img {
+    max-height: clamp(1.5rem, 1.8vw, 15rem);
+    pointer-events: none;
+}
+.boton_area--ancho{
+    padding: 1vw 3vw;
+    background-color: white;
+    border: 1px solid #CFCFCF;
+    color: rgba(0, 0, 0, 0.801);
+    border-radius: 5vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.boton_area--color{
+    background-color:#7d7c7c;
+    border: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #7d7c7c;
+}
+.resour_enlaces{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    padding: 28px
+}
+.enlaces_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 10px;
+    font-size: 1vw;
+}
+.grid_central{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+.resour_viajar{
+    display: flex;
+    flex-direction: column;
+}
+.popular_central{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ padding: 1vw 2vw;
+}
+.popular_present{
+    background-color: #2F2F2F;
+    border-radius: 20px;
+}
+.popular_mija{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.popular_mija img{
+    height: 2.5vw;
+    cursor: pointer;
+}
+.popular_mija h2{
+  color: white;
+}
+span{
+   color: #38D4FF;
+}
+.popular_check p{
+    color: white;
+}
+.popular_check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2vw;
+}
+.popular_check img{
+    height: 1vw;
+}
+.final_encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.final_descrip{
+    font-size: 1vw;
+}
+.final_encabezado img{
+    padding: 0 8px;
+    height: 1.5vw;
+}
+.final_color{
+    color: black;
+}
+.resour_titulo{
+    font-size: 1.2vw;
+}
+.boton_mijo{
+    padding: 1vw 2vw;
+}
+.peso_mijo{
+    font-size: 2.5vw;
+}
+.popular_mija h2{
+  font-size: 1.5vw;
+}
