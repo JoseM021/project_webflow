@@ -1,0 +1,238 @@
+/* ------------Pricing Single Plan----------------- */
+.pricing-singlePlan {
+    width: 25.6vw;
+    border-radius: 0.8vw;
+    border: 1px solid #b6b6b6;
+}
+.singlePlan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2.2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-bottom: 1px solid #b6b6b6;
+}
+.singlePlan-header h3 {
+    font-size: 1.25vw;
+    cursor: default;
+}
+.singlePlan-header button {
+    border: none;
+    color: white;
+    background-color: #2f2f2f;
+    height: 2.8vw;
+    width: 7.5vw;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.85vw;
+    align-items: center;
+    text-align: center;
+}
+.singlePlan-subHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    border-bottom: 1px solid #b6b6b6;
+}
+.singlePlan-subHeader h2 {
+    font-size: 2vw;
+    cursor: default;
+}
+.singlePlan-subHeader p {
+    font-size: 1vw;
+    align-items: center;
+    color: #898989;
+    cursor: default;
+}
+.singlePlan-container {
+    padding: 0 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.singlePlan-container p {
+    font-size: 1.1vw;
+}
+.singlePlan-container div {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding-bottom: 0.82vw;
+}
+.singlePlan-container img {
+    height: 0.7vw;
+}
+.singlePlan-unchecked p {
+    color: #898989;
+}
+.singlePlan-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+.singlePlan-footer button {
+    border: none;
+    height: 3.5vw;
+    width: 21vw;
+    border-radius: 3vw;
+    background-color: white;
+    border: 1px solid #bebebe;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+.pricing-plans {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+.singlePlan-header img {
+    height: 2.8vw;
+    cursor: pointer;
+}
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 2.5vw;
+}
+.pricing-singlePlan:hover {
+    position: relative;
+    bottom: 3vw;
+    box-shadow: 0px 0px 44px 5px rgba(128, 128, 128, 0.5);
+    transition: 0.92s;
+}
+.singlePlan-footer button:hover {
+    background-color: #5956e9;
+    color: white;
+}
+/* -------------Pricing sub container --------------- */
+.pricing-panel-packages {
+    padding: 0 10.5vw;
+    padding-top: 6vw;
+}
+.pricing-packages {
+    border: 1px solid #d6d6d6ed;
+    border-radius: 1vw;
+}
+.pricing-subcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 0 10vw;
+}
+.pricing-panel {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    gap: 1.2vw;
+    padding: 1.5vw;
+    border-radius: 1vw;
+}
+.pricing-panel-left {
+    background-color: #5956e9;
+    width: 9vw;
+    border-radius: 0.8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 900;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+}
+.pricing-panel-left img {
+    height: 6vw;
+    padding-bottom: 0.4vw;
+    pointer-events: none;
+}
+.pricing-panel-right h3 {
+    font-size: 1.5vw;
+    padding-bottom: 0.4vw;
+}
+.pricing-panel-right p {
+    font-size: 1vw;
+    color: #656565;
+    padding-bottom: 0.4vw;
+}
+.pricing-panel-right h4 {
+    font-size: 1.2vw;
+}
+.pricing-panel-mainTitle {
+    display: flex;
+    justify-content: center;
+}
+.pricing-panel-mainTitle p {
+    font-size: 1.8vw;
+    font-weight: 900;
+    padding-bottom: 4.2vw;
+}
+/* ----------------Pricing table----------------- */
+.pricing-packages-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.pricing-packages-headerTitle {
+    font-size: 2vw;
+    font-weight: 900;
+}
+.pricing-packagesHeaderPrice {
+    font-size: 1vw;
+}
+.pricing-packages-headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-packages-subHeader {
+    background-color: #f6f6f6;
+    padding: 1.5vw 5.6vw;
+}
+.pricing-packages-subHeader p {
+    font-size: 1.2vw;
+    color: #5956e9;
+    font-weight: 900;
+}
+.facebook, .twitter, .instagram,
+.google-business, .growth-trends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 5.6vw;
+    font-size: 1.2vw;
+    border-bottom: 1px solid #e3dfdf;
+}
+.facebook img, .twitter img, .instagram img,
+.google-business img, .growth-trends img {
+    height: 1.6vw;
+}
+.facebook div {
+    display: flex;
+    justify-content: space-between;
+    width: 44vw;
+    padding-right: 3vw;
+}
+.growth-trends div {
+    display: flex;
+    justify-content: flex-end;
+    width: 44vw;
+    padding-right: 3vw;
+}
+.twitter div, .instagram div,
+.google-business div {
+    display: flex;
+    justify-content: space-between;
+    width: 44vw;
+    padding-right: 3vw;
+    padding-left: 19.7vw;
+}
+.twitter-down {
+    display: flex;
+    justify-content: center;
+}
