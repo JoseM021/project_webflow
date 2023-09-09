@@ -1,0 +1,83 @@
+.pricing-single-left {
+    background-color: #f6f6f6;
+    width: 29vw;
+    padding: 0 1.2vw;
+    display: grid;
+    justify-content: center;
+    padding-top: 1.3vw;
+    padding-bottom: 1.3vw;
+    border-radius: 1.1vw;
+}
+.pricing-single-left h2 {
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+.pricing-single-left h3 {
+    font-size: 1.8vw;
+    font-weight: 900;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.pricing-single-left p {
+    font-size: 1vw;
+    color: #7d7a7a;
+}
+.pricing-single-durationplan {
+    border: none;
+    padding: 0.85vw;
+    border-radius: 2vw;
+    border: 1px solid #b5b3b3;
+    width: 21vw;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95vw;
+    font-weight: 900;
+    padding-left: 2.5vw;
+    margin-bottom: 1vw;
+}
+.pricing-single-durationplan img {
+    height: 0.5vw;
+    padding-right: 2vw;
+}
+.pricing-single-Cart {
+    border: none;
+    padding: 0.85vw;
+    border-radius: 2vw;
+    width: 21vw;
+    cursor: pointer;
+    background-color: #5956e9;
+    color: white;
+    font-size: 0.8vw;
+}
+.pricing-single-right {
+    width: 40vw;
+}
+.pricing-single-right h1 {
+    font-weight: 900;
+    font-size: 1.8vw;
+    letter-spacing: 0.1vw;
+}
+.pricing-single-right p {
+    font-size: 1vw;
+    color: #7d7a7a;
+    padding-top: 0.8vw;
+    padding-bottom: 1vw;
+}
+.pricing-single-rightDown div {
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+}
+.pricing-single-rightDown p {
+    color: #202020;
+    font-weight: 900;
+}
+.pricing-single-planMain {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 8vw;
+    padding-bottom: 11vw;
+}

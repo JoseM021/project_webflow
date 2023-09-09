@@ -150,6 +150,7 @@
 .homepage-footer {
     display: flex;
     justify-content: center;
+    padding-bottom: 9vw;
 }
 .bottom-footer-container {
     display: flex;
