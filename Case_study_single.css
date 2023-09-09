@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container_father{
+    width: 100%;
+}
+.container_apps{
+    width: 50%;
+    margin: auto;
+    padding-top: 6%;
+}
+.container_apps img{
+    width: 100%;
+}
+/* Este es el css de section title_whit_parrafo ============================== */
+
+.title_whit_parrafo{
+    width: 50%;
+    margin: auto;
+}
+.article_h2 h2{
+    font-family: Mulish;
+    font-size: clamp(1rem, 2.2vw, 2.5vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.two_parrafo p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1.1vw, 1.3vw); 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 150.5%; 
+}
+.two_parrafo p{
+    padding-bottom: 3%;
+}
+.container_listado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.container_list{
+    width: 50%;
+}
+.list_ordenada img{
+    width: 8%;
+}
+.list_ordenada{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    padding-bottom: 4%;
+}
+.list_ordenada p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1.1vw, 1.3vw); 
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 150.5%; 
+}
+.container_prrf{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1.1vw, 1.3vw); 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 150.5%; 
+    padding-bottom: 5%;
+}
+.container_parrafo_img{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 8%;
+}
+.img_chicas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    padding-bottom: 5%;
+}
+.img_chicas img{
+    width: 49%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container_father{
+    width: 100%;
+}
+.container_center{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.container_img{
+    width: 85%;
+    margin: auto;
+}
+.container_img img{
+    width: 100%;
+}
+.container_letras_bt{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.letras{
+    width: 60%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.letras p{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 1.6vw, 2vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    width: 100%;
+ 
+
+}
+.bt{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.bt img{
+    width: 70%;
+    height: 98%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

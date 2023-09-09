@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+/* Este es el CSS del div => container_accounts */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-downGraphics-feautersSingle {
+    width: 91vw;
+    height: 51.8vw;
+    top: 25.4vw;
+    right: 0.5vw;
+}
+.header-downGraphics-feautersSingle::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    transform: translate(0px,0.1vw);
+    width: 55%;
+    margin: auto;
+    background: linear-gradient(30deg, rgba(218,217,255,.8), rgba(255, 16, 16, 0) 70.71%),
+     linear-gradient(50deg, rgba(91, 86, 221, 0.8), rgb(224, 99, 255) 90.71%);
+    filter: blur(5vw);
+    opacity: 0.3;
+    z-index: -1;
+    
+}
+.happyfamily-contentP-FSingle {
+    border: none;
+}
+.container_accounts{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.img_accounts{
+    width: Clamp(10vw, 50%, 32vw);
+}
+.img_accounts img{
+    width: 100%;
+}
+.container_father {
+    padding-top: 30vw;
+}
+.text_accounts{
+    width: Clamp(10vw, 50%, 32vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.h2_accounts{
+    width: 100%;
+}
+.p_accounts{
+    width: 100%; 
+}
+.p_accounts #p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1vw, 1.1vw); 
+    font-style: normal;
+    font-weight: 400; 
+    line-height: 150.5%; 
+}
+.article #h2 {
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 2.5vw, 5vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+.social_accounts{
+    width: 100%;
+}
+.social_accounts{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.social_accounts img{
+    width: 15%;
+}
+.social_accounts .SmartSchedule{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+.SmartSchedule h4{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 1.2vw, 1.3vw);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    padding-bottom: 1%;
+}
+.SmartSchedule p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1vw, 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%; 
+}
+/* Este es el CSS del div => container_calendar */
+.container_calendar{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 5%;
+}
+.calendar_text{
+    width: 43%;
+}
+.h1_pa #h2_titulo{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 2.5vw, 5vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    width: 90%;
+}
+.h1_pa #parrafo{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, .9vw, 1.1vw); 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 150.5%; 
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+#icon_and_text{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 6%;
+    gap: 3%;
+}
+#icon_and_text img{
+    width: 17%;
+}
+.title_parrafo h4{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 1.2vw, 1.3vw);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.title_parrafo p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1vw, 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%; 
+}
+.button_blue {
+    padding-top: 5%;
+}
+.div_blue img{
+    width:  57%;
+    border-radius: 20px;
+    box-shadow: 0px 12px 30px 12px rgba(73, 72, 72, 0.151);
+}
+.calendar_img{
+    width: 52%;
+}
+.calendar_img img{
+    width: 100%;
+}
+/* Este es el CSS del div => container_Condent_plan*/
+.container_Condent_plan{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.condent_plan_img{
+    width: 54%;
+}
+.condent_plan_img{
+    width: Clamp(10vw, 55%, 34vw);
+}
+.condent_plan_img img{
+    width: 100%;
+}
+.condent_plan_text{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+}
+.condent_title {
+    width: 75%;
+    padding-top: 2%;
+    padding-bottom: 6%;
+}
+.condent_title #h2 {
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 2vw, 2.2vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+.condent_parrafos{
+    width: 100%;
+}
+.condent_parrafos p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, .9vw, 1vw); 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 150.5%; 
+}
+.condent_parrafos #text_parrafo{
+    padding-bottom: 5%;
+}
+.aspect_work{
+    display: flex;
+    flex-direction: column;
+}
+.article_profile{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.article_profile img{
+    width: 18%;
+}
+.Performance{
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+.Reports{
+    padding-top: 5%;
+}
+#text_h4_p h4{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 1.2vw, 1.3vw);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#text_h4_p p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: clamp(.5rem, 1vw, 1vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%; 
+}
+
+/* Este es el CSS del div => container_our_happy*/
+
+.container_our_happy{
+    width: 100%;
+  
+}
+.our_happy{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background: #e2e2e2;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
+}
+#sign_flecha{
+    margin: auto;
+}
+
+.img_left img{
+    width: 70%;
+}
+
+.perfil_marketing{
+    width: 68%;
+    margin: auto;
+}
+.perfil_information{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfil_information #h2{
+    padding-bottom: 9%;
+}
+.imagen_perfil .comillas{
+    width: 4%;
+    position: absolute;
+    margin: auto;
+    /* margin-bottom: -30%; */
+    margin-left: 6%;
+    margin-top: 7%;
+}
+
+.perfil_information #h2{
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: clamp(1rem, 2vw, 2.2vw);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+.imagen_perfil{
+    width: Clamp(10vw, 55%, 34vw);
+}
+.imagen_perfil img{
+    width: 100%;
+
+}
+
+.Description{
+    width: 100%;
+}
+
+.img_rigth img{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
