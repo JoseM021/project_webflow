@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Mulish;
 }
-header {
+.header-up {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,25 +40,23 @@ header {
     font-weight: 600;
 }
 
-.menu-option p {
-    color: #CFCFCF;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: Mulish;
-    font-size: clamp(0.7rem, 0.7vw, 7.5rem);
-    font-weight: bold;
-    cursor: default;
-}
 .menu-option .menu-01 {
     color: #5236FF;
+}
+.menu-option {
+    display: flex;
+    align-items: center;
 }
 .menu-option div {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.5vw;
 }
 .menu-optionIMG img {
+    align-items: center;
     padding-top: 5px;
     cursor: pointer;
+    height: clamp(0.63rem, 0.6vw, 1.65rem);
 }
 .header-right {
     display: flex;
@@ -76,15 +74,15 @@ header {
     border: none;
 }
 .header-rightMarket img {
-    height: clamp(0.7rem, 1vw, 7.5rem);
+    height: 1vw;
     pointer-events: none;
 }
 .header-right button {
     background: none;
-    border-radius: 62px;
+    border-radius: 10vw;
     border: 1px solid #7d7c7c;
-    height: clamp(2.5rem, 2.5vw, 18rem);
-    width:  clamp(3.5rem, 6.3vw, 20rem);
+    height: 3vw;
+    width: 6.5vw;
     font-size: clamp(0.5rem, 1vw, 4rem);
     cursor: pointer;
 }
