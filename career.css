@@ -4,6 +4,19 @@
     box-sizing: border-box;
     font-family: Mulish;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+
+body {
+    background-color: #FFF;
+}
+html{
+    font-size: 20px;
+}
 .header-up {
     display: flex;
     justify-content: space-between;
@@ -102,279 +115,154 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 7vw;
+    padding: 5vw;
+}
+.descripcion_parrafo h1{
+    font-size: 3vw;
 }
 .modificar_color{
     color: white;
-    font-size: 2vw;
 }
 .modificar_p{
     color: rgba(255, 255, 255, 0.874);
     text-align: center;
     font-size: 1.2vw;
 }
-.area_trabajo{
+.contenido_mija{
+    font-size: 1.3vw;
     display: flex;
     justify-content: center;
+    padding: 4vw;
+}
+.contenido_mija  span {
+  color: #5236FF;
+}
+.arti_list{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8%;
+}
+.ati_parra{
+    display: flex;
+    flex-direction: column;
     padding: 5vw;
 }
-.area_img{
-    height: 30vw;
-}
-.area_laboral{
-    display: flex;
-    gap: 2vw;
-    padding: 1vw 0;
-}
-.area_texto{
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
-    padding: 1vw 0;
-}
-.area_texto h2{
-    color: #2F2F2F;
+.arti_title h2{
     font-size: 2vw;
 }
-.area_texto p{
-  color: rgba(0, 0, 0, 0.634);
+.ati_parra h3{
+    font-size: 1.2vw;
+}
+.ati_parra h5 {
   font-size: 1.2vw;
 }
-.descripcion_configu{
+.ati_parra p{
+    font-size: 1.2vw;
+}
+.arti_sub{
+    display: flex;
+    gap: 10vw;
+}
+.ati_parra img{
+    width: 72vw;
+    padding-top: 4vw;
+}
+
+.button_boton button {
+    padding: 1vw 2vw;
+    border-radius: 8vw;
+    border: 1px solid #DCDCDC;
+    background-color: #DCDCDC;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.button_boton .color_black{
+    background-color: #2F2F2F;
+    color: white;
+}
+.articulo_arti{
+    display: flex;
+    justify-content: center;
+}
+.articulo_central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+.articulo_central h2{
+    font-size: 2vw;
+}
+.articulo_central p{
+    font-size: 1.4vw;
+}
+.button_boton .color_rosa{
+    background-color: #5236FF;
+    color: white;   
+}
+.tarjeta_central{
+    background-color: #F6F6F6;
+    position: relative;
+    width: 80vw;
+    border-radius: 2vw;
+}
+
+.tarjeta_cards{
+    display: flex;
+    justify-content: center;
+    padding: 8vw;
+}
+.cards_next{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 60vw;
+    position: absolute;
 }
-.componer_parrafos{
+.carsd_color  {
+    background-color: #FFFFFF;
+    padding: 1vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: 1s;
+}
+.carsd_color:hover{
+    background-color:#5236FF;
+}
+
+.cards_img{
+    position: relative;
+}
+.fondo_mover{
+    position: absolute;
+    top: 7vw;
+}
+.cards_conte{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    gap: 2vw;
+    position: relative;
 }
-.componer_parrafos h4{
-    color: #2F2F2F;
+.cards_title h2{
+    font-size: 2vw;
+}
+.title_nombre p{
     font-size: 1.5vw;
 }
-.componer_parrafos p{
-    font-size: 1.2vw;
-}
-.descripcion_img img{
-    height: 5vw;
-}
-.button_laboral{
-    display: flex;
-    align-items: center;
-    padding: 1vw 0;
-}
-.boton_area{
-   
-    border-radius: 8vw;
-    align-items: center;
-    padding: 1vw 2vw;
-    border: none;
-    background-color:#2F2F2F;
-    color: white;
-    cursor: pointer;
-    font-size: 1.2vw;
-}
-.catalogos_descrip{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.catalogos_descrip h1{
-    font-size: 2vw;
-}
-.catalogos_titulos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2vw;
-}
-.catalogos_pre{
-    display: flex;
-    align-items: center;
-    gap: 70px;
-    padding: 60px;
-}
-.catalogos_pecio{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-.catalogos_pecio h2{
-    color: #5236FF;
-    font-size: 2vw;
-}
-.catalogos_pecio p{
- font-size: 1.2vw;
-}
-.mision_laboral{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.mision_titulo{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.mision_titulo h1 {
-    font-size: 2vw;
-}
-.mision_titulo p{
-    font-size: 1.2vw;
-}
-.tick_infor{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.tick_nuevo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.tick_nuevo img{
-    height: 2vw;
-}
-.img_mision{
-  display: flex;
-  gap: 30px;
-}
-.img_trabaja{
-    height: 18vw;
-}
-.erro_mijo{
-    text-align: center;
-    padding: 5vw;
-    font-size: 2vw;
-}
-.tarjetas_present{
-    display: flex;
-    justify-content: center;
-    padding: 5vw;
-}
-.tarjetas_cards{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  gap: 2vw;
-
-}
-.cards_present{
-    height: 20vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2vw;
-}
-.cards_present h3{
-    font-size: 2vw;
-}
-.cards_present p{
+.cards_parrafo{
+  padding-left: 10vw;
   font-size: 1.2vw;
 }
-.cards_present--borde{
-    border: 2px solid #CFCFCF;
-    border-radius: 2vw;
-    
+.cards_img .avatar_mujer{
+    height: 10vw;
 }
-.cards_present img{
-    height: 5vw;
+.fondo_color img{
+    height: 4vw;
 }
-.fondo_tarje{
-    padding: 5vw 0;
-}
-.fondo_tarjetas{
-    background-image: url(img-1/Background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 98.3vw;
-}
-.fondo_titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5vw;
-    gap: 468px;
-}
-
-.fondo_titulo h2{
-  color: white;
-  font-size: 2vw;
-}
-.fondo_titulo p{
-    color: rgba(255, 255, 255, 0.785);
-    font-size: 1.3vw;
-}
-.boton_area--color{
-    background-color: #CFCFCF;
-    color: black;
-}
-.fondo_centrado{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10%;
-    gap: 30px;
-    padding-bottom: 70px;
-}
-.fondo_centrado h4{
-    font-size: 2vw;
-}
-.fondo_centrado p{
-    font-size: 1.2vw;
-}
-.img_person {
-    height: 24vw;
-}
-
-.fondo_images{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   gap: 10px;
-   color: white;
-}
-.logiar_img img {
-  height: 1vw;
-  padding: 0 1vw;
-  cursor: pointer;
-}
-.our_titulo{
-    text-align: center;
-    padding: 5vw;
-    font-size: 2vw;
-}
-.our_present{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.our_tarjetas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-.our_cards{
-    background-color:#CFCFCF;
-    border-radius: 2vw;
-    width: 35vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px 25px;
-    gap: 10px;
-}
-.our_cards{
-    font-size: 1.2vw;
-}
-.our_cards img{
-    height: 2vw;
-}
-.img_rayita{
-    text-align: center;
+.cards_next img{
+    height: 1vw;
 }
 .img_rayita img {
     width: 94vw;
@@ -504,3 +392,11 @@ span{
 .popular_mija h2{
   font-size: 1.5vw;
 }
+.button_laboral{
+    padding:  0 3vw;
+}
+.button_laboral--mover{
+    padding: 0 0;
+}
+
+
