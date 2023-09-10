@@ -206,11 +206,7 @@ html{
     width: 80vw;
     border-radius: 2vw;
 }
-.fondo_color{
-    background-color: #5236FF;
-    padding: 1vw;
-    border-radius: 10vw;
-}
+
 .tarjeta_cards{
     display: flex;
     justify-content: center;
@@ -238,7 +234,7 @@ html{
 }
 .fondo_mover{
     position: absolute;
-    top: 8vw;
+    top: 7vw;
 }
 .cards_conte{
     display: flex;
@@ -262,9 +258,8 @@ html{
 .cards_img .avatar_mujer{
     height: 10vw;
 }
-.fondo_mover img{
-    height: 1vw;
-
+.fondo_color img{
+    height: 4vw;
 }
 .cards_next img{
     height: 1vw;
@@ -400,4 +395,8 @@ span{
 .button_laboral{
     padding:  0 3vw;
 }
+.button_laboral--mover{
+    padding: 0 0;
+}
+
 
